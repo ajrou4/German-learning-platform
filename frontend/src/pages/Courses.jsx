@@ -7,10 +7,12 @@ import { useAuthStore } from '../store/useStore';
 export default function Courses() {
     const user = useAuthStore((state) => state.user);
 
-    const { data: courses, isLoading } = useQuery({
+    const { data: courses, isLoading, error } = useQuery({
         queryKey: ['courses'],
-        queryFn: () => coursesAPI.list().then((res) => res.data),
+        queryFn: () => coursesAPI.list().then((res) => res.data.results),
     });
+
+    console.log('Courses data:', courses, 'Error:', error);
 
     if (isLoading) {
         return (
