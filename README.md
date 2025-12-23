@@ -4,7 +4,7 @@ A comprehensive full-stack web application for learning German, powered by AI. F
 
 ![Tech Stack](https://img.shields.io/badge/Django-5.0-green)
 ![React](https://img.shields.io/badge/React-18.2-blue)
-![Docker](https://img.shields.io/badge/Docker-Ready-blue)
+![Docker](https://img.shields.io/badge/Docker-Ready-blue))
 ![AI](https://img.shields.io/badge/AI-OpenAI-orange)
 
 ## ✨ Features
@@ -217,7 +217,7 @@ Real-time translation with grammar explanations and word breakdown.
 1. **Update environment variables** for production
 2. **Build frontend**:
 ```bash
-cd frontend
+cd frontend)
 npm run build
 ```
 
@@ -252,9 +252,9 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+**moahmed**
+- GitHub: [ajrou4](https://github.com/ajrou4)
+- LinkedIn: [majrou](https://linkedin.com/in/majrou)
 
 ## 🙏 Acknowledgments
 
